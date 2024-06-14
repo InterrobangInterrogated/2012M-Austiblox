@@ -77,7 +77,7 @@ pcall(function() game:GetService("InsertService"):SetAssetVersionUrl("https://as
 pcall(function() game:GetService("SocialService"):SetGroupUrl("http://10char.xyz/stamper/groupurl.php?method=IsInGroup&playerid=%d&groupid=%d") end)
 pcall(function() game:GetService("BadgeService"):SetPlaceId(-1) end)
 pcall(function() game:GetService("BadgeService"):SetIsBadgeLegalUrl("") end)
-pcall(function() game:GetService("ScriptInformationProvider"):SetAssetUrl("http://10char.xyz/asset/") end)
+pcall(function() game:GetService("ScriptInformationProvider"):SetAssetUrl("http://10char.xyz/launcher/asset/") end)
 pcall(function() game:GetService("ContentProvider"):SetBaseUrl("http://www.10char.xyz/stamper/stampericons.php?") end)
 
 
