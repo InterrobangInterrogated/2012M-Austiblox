@@ -101,7 +101,7 @@ function KickPlayer(Player,reason)
 		Player:remove()
 		print("Player '" .. Player.Name .. "' with ID '" .. Player.userId .. "' kicked. Reason: "..reason)
 		if (showServerNotifications) then
-			game.Players:Chat("Player '" .. Player.Name .. "' was kicked. Reason: "..reason)
+			--game.Players:Chat("Player '" .. Player.Name .. "' was kicked. Reason: "..reason)
 		end
 	end
 end
@@ -692,7 +692,7 @@ game:GetService("Players").PlayerAdded:connect(function(Player)
 	]]--
 	print("Player '" .. Player.Name .. "' with ID '" .. Player.userId .. "' added")
 			if (showServerNotifications) then
-				game.Players:Chat("Player '" .. Player.Name .. "' joined")
+				--game.Players:Chat("Player '" .. Player.Name .. "' joined")
 			end
 			Player:LoadCharacter()
 		
